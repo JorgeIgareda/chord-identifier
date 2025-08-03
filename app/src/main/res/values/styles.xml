@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AcordesPiano" parent="Theme.AppCompat.NoActionBar">
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+
+    <style name="Theme.AcordesPiano" parent="Base.Theme.AcordesPiano" />
+
+    <style name="first_key_style_for_white_key" >
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/pressed_and_normal_selector</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="common_key_style_for_rest_of_the_piano_keys">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/pressed_and_normal_selector</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="black_piano_key_style">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">-19dp</item>
+        <item name="background">@drawable/black_piano_key_selector</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+</resources>
