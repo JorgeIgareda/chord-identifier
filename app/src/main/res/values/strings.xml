@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AcordesPiano</string>
+    <string name="title">IDENTIFICADOR DE ACORDES</string>
+    <string name="not_found">No se encontró ningún acorde.</string>
 </resources>
